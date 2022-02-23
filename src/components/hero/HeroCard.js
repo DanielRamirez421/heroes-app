@@ -15,17 +15,19 @@ export const HeroCard = ({
 
   return (
     <div className="col">
-      <div className="card shadow-sm">
-        <div className="row">
+      <div className="card h-100 shadow">
+        <div className="row h-100">
           <div className="col-4">
             <img
               src={ imagePath }
-              className={"card-img-top"}
+              className={"card-img-top h-100"}
               alt={superhero}
+              style={{objectFit: 'cover'}}
             />
           </div>
           <div className="col-8">
             <div className="card-body">
+
               <h5 className="card-title">{ superhero }</h5>
               <p className="card-text">{ alter_ego }</p>
               { (alter_ego !== characters) && <p className="text-muted">{ characters }</p> }
@@ -33,6 +35,7 @@ export const HeroCard = ({
                 <small className="text-muted">{ first_appearance }</small>
               </p>
               <Link to={`/hero/${id}`}>Más...</Link>
+              
             </div>
           </div>
         </div>
