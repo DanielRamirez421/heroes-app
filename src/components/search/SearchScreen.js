@@ -1,5 +1,6 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+
 import { useForm } from "../../hooks/useForm";
 import { getHeroesByName } from "../../selectors/getHeroesByName";
 import { HeroCard } from "../hero/HeroCard";
@@ -65,7 +66,9 @@ export const SearchScreen = () => {
                      </div>;
             })
           }
-          { !heroesFiltered.length && <p>No results for: { search }</p> }
+          { !heroesFiltered.length && <p className="alert alert-danger">
+                                        No results for: <strong>{ search }</strong>
+                                      </p> }
         </div>
       </div>
     </div>

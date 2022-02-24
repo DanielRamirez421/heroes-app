@@ -11,47 +11,49 @@ export const Navbar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark px-3">
-      <Link className="navbar-brand" to="/">
-        Comic SPA
-      </Link>
-      <div className="navbar-collapse">
-        <div className="navbar-nav">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
+          Comic SPA
+        </Link>
+        <div className="navbar-collapse">
+          <div className="navbar-nav">
 
-          <NavLink className={
-            ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
-          } to="/marvel">
-            Marvel
-          </NavLink>
+            <NavLink className={
+              ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
+            } to="/marvel">
+              Marvel
+            </NavLink>
 
-          <NavLink className={
-            ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
-          } to="/dc">
-            DC
-          </NavLink>
+            <NavLink className={
+              ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
+            } to="/dc">
+              DC
+            </NavLink>
 
-          <NavLink className={
-            ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
-          } to="/search">
-            Search
-          </NavLink>
+            <NavLink className={
+              ({ isActive }) => 'nav-item nav-link' + (isActive ? ' active' : '')
+            } to="/search">
+              Search
+            </NavLink>
 
+          </div>
         </div>
-      </div>
-      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
-        <ul className="navbar-nav ml-auto">
+        <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
+          <ul className="navbar-nav ml-auto">
 
-          <span className="nav-item nav-link text-info">
-            { userName }
-          </span>
+            <span className="nav-item nav-link text-info">
+              { userName }
+            </span>
 
-          <button 
-            className="nav-item nav-link btn" 
-            to="/login"
-            onClick={ handleLogout }>
-            Logout
-          </button>
-        </ul>
+            <button 
+              className="nav-item nav-link btn" 
+              to="/login"
+              onClick={ handleLogout }>
+              Logout
+            </button>
+          </ul>
+        </div>
       </div>
     </nav>
   );
