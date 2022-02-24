@@ -11,7 +11,6 @@ export const HeroCard = ({
   characters,
 }) => {
 
-  // const imagePath = `assets/${id}.jpg`;
   const imagePath = `../../../public/assets/${id}.jpg`;
 
   return (
