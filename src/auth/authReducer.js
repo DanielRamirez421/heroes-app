@@ -1,8 +1,7 @@
 import { types } from "../types/types";
 
 // const state = {
-//   name: 'Daniel',
-//   email: 'dani.mauro26@gmail.com',
+//   name: 'Daniel Ramirez',
 //   logged: true
 // }
 
