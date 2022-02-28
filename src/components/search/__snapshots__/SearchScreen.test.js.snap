@@ -1,0 +1,1537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchScreen component tests should return a message for non-existent hero 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="search"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Find a hero"
+            type="text"
+            value="non-existentHero"
+          />
+          <div
+            className="input-group-append"
+          >
+            <button
+              className="btn btn-outline-primary rounded-0 rounded-end"
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <p
+        className="alert alert-danger"
+      >
+        No results for: 
+        <strong>
+          non-existentHero
+        </strong>
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchScreen component tests should show Batman and input with queryStringValue 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="search"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Find a hero"
+            type="text"
+            value="batman"
+          />
+          <div
+            className="input-group-append"
+          >
+            <button
+              className="btn btn-outline-primary rounded-0 rounded-end"
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-batman"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Batman"
+                  className="card-img-top h-100"
+                  src="/assets/dc-batman.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Batman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Bruce Wayne
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #27
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-batman"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SearchScreen component tests should show component 1`] = `
+<div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="input-group"
+        >
+          <input
+            autoComplete="off"
+            className="form-control"
+            name="search"
+            onChange={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Find a hero"
+            type="text"
+            value=""
+          />
+          <div
+            className="input-group-append"
+          >
+            <button
+              className="btn btn-outline-primary rounded-0 rounded-end"
+              type="submit"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-batman"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Batman"
+                  className="card-img-top h-100"
+                  src="/assets/dc-batman.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Batman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Bruce Wayne
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #27
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-batman"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-superman"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Superman"
+                  className="card-img-top h-100"
+                  src="/assets/dc-superman.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Superman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Kal-El
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Action Comics #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-superman"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-flash"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Flash"
+                  className="card-img-top h-100"
+                  src="/assets/dc-flash.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Flash
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Jay Garrick
+                  </p>
+                  <p
+                    className="text-muted"
+                  >
+                    Jay Garrick, Barry Allen, Wally West, Bart Allen
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Flash Comics #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-flash"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-green"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Green Lantern"
+                  className="card-img-top h-100"
+                  src="/assets/dc-green.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Green Lantern
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Alan Scott
+                  </p>
+                  <p
+                    className="text-muted"
+                  >
+                    Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      All-American Comics #16
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-green"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-arrow"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Green Arrow"
+                  className="card-img-top h-100"
+                  src="/assets/dc-arrow.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Green Arrow
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Oliver Queen
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      More Fun Comics #73
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-arrow"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-wonder"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Wonder Woman"
+                  className="card-img-top h-100"
+                  src="/assets/dc-wonder.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Wonder Woman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Princess Diana
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      All Star Comics #8
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-wonder"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-martian"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Martian Manhunter"
+                  className="card-img-top h-100"
+                  src="/assets/dc-martian.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Martian Manhunter
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    J'onn J'onzz
+                  </p>
+                  <p
+                    className="text-muted"
+                  >
+                    Martian Manhunter
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #225
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-martian"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-robin"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Robin/Nightwing"
+                  className="card-img-top h-100"
+                  src="/assets/dc-robin.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Robin/Nightwing
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Dick Grayson
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #38
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-robin"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-blue"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Blue Beetle"
+                  className="card-img-top h-100"
+                  src="/assets/dc-blue.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Blue Beetle
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Dan Garret
+                  </p>
+                  <p
+                    className="text-muted"
+                  >
+                    Dan Garret, Ted Kord, Jaime Reyes
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Mystery Men Comics #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-blue"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="dc-black"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Black Canary"
+                  className="card-img-top h-100"
+                  src="/assets/dc-black.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Black Canary
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Dinah Drake
+                  </p>
+                  <p
+                    className="text-muted"
+                  >
+                    Dinah Drake, Dinah Lance
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Flash Comics #86
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-black"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-spider"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Spider Man"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-spider.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Spider Man
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Peter Parker
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Amazing Fantasy #15
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-spider"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-captain"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Captain America"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-captain.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Captain America
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Steve Rogers
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Captain America Comics #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-captain"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-iron"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Iron Man"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-iron.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Iron Man
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Tony Stark
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Tales of Suspense #39
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-iron"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-thor"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Thor"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-thor.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Thor
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Thor Odinson
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Journey into Myster #83
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-thor"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-hulk"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Hulk"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-hulk.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Hulk
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Bruce Banner
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      The Incredible Hulk #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-hulk"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-wolverine"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Wolverine"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-wolverine.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Wolverine
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    James Howlett
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      The Incredible Hulk #180
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-wolverine"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-daredevil"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Daredevil"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-daredevil.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Daredevil
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Matthew Michael Murdock
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Daredevil #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-daredevil"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-hawkeye"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Hawkeye"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-hawkeye.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Hawkeye
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Clinton Francis Barton
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Tales of Suspense #57
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-hawkeye"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-cyclops"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Cyclops"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-cyclops.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Cyclops
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Scott Summers
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      X-Men #1
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-cyclops"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="my-2 animate__animated animate__fadeIn"
+        key="marvel-silver"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card h-100 shadow"
+          >
+            <div
+              className="row h-100"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Silver Surfer"
+                  className="card-img-top h-100"
+                  src="/assets/marvel-silver.jpg"
+                  style={
+                    Object {
+                      "objectFit": "cover",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Silver Surfer
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Norrin Radd
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      The Fantastic Four #48
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/marvel-silver"
+                    onClick={[Function]}
+                  >
+                    Más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
