@@ -2,6 +2,10 @@ import React, { useMemo } from "react";
 import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { getHeroById } from "../../selectors/getHeroById";
 
+
+const heroImages = require.context('../../assets', true);
+
+
 export const HeroScreen = () => {
   
   const { heroId } = useParams(); // come from route: /hero/:heroId
@@ -18,7 +22,7 @@ export const HeroScreen = () => {
     navigate(-1);
   };
 
-  const imagePath = `/assets/${id}.jpg`;
+  const imagePath = heroImages(`./${id}.jpg`);
 
   return (
     <div className="row mt-5">
